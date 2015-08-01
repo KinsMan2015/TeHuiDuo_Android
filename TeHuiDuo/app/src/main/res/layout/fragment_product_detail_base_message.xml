@@ -1,0 +1,196 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.jeegoo.o2o.tehuiduo.ProductDetailBaseMessageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/productNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/product_name"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/product_name">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/productPriceEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/product_price"
+                android:nestedScrollingEnabled="true"
+                android:singleLine="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/product_price">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/productLocationEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:hint="@string/product_location"
+                android:nestedScrollingEnabled="true"
+                android:singleLine="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/product_location">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/productKindsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:editable="false"
+                android:hint="@string/product_kinds"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/product_kinds">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/startDateEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="2"
+                android:editable="false"
+                android:hint="@string/start_date"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/start_date">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/startTimeEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="@string/start_time"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/start_time_label">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/endDateEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="2"
+                android:editable="false"
+                android:hint="@string/end_date"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/end_date"
+
+                >
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/EndTimeEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="@string/end_time"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/end_time_label">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/productDescribeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/product_describe"
+                android:nestedScrollingEnabled="true"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="@string/product_describe">
+
+            </com.rengwuxian.materialedittext.MaterialEditText>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

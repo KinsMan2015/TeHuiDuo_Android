@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jeegoo.o2o.tehuiduo" >
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 从SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.DesignDemo" >
+        <activity android:name=".SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" >
+        </activity>
+        <activity
+            android:name=".ProductListActivity"
+            android:theme="@style/Theme.DesignDemo" >
+        </activity>
+        <activity
+            android:name=".ProductDetailActivity"
+            android:label="@string/title_activity_product_detail" >
+        </activity>
+        <activity android:name=".ProductDetailBaseMessageActivity" >
+        </activity>
+        <activity android:name=".ProductDetailStyleMessageActivity" >
+        </activity>
+        <activity android:name=".CreateProductActivity" >
+        </activity>
+        <activity android:name=".ProductDetailImageActivity" >
+        </activity>
+        <activity android:name=".ContactUsActivity" >
+        </activity>
+        <activity
+            android:name=".EditProductActivity"
+            android:label="@string/title_activity_edit_product" >
+        </activity>
+        <activity
+            android:name=".ImageChooseActivity"
+            android:label="@string/title_activity_image_choose" >
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".SingleFragmentActivity"
+            android:label="@string/title_activity_single_fragment" >
+        </activity>
+        <activity
+            android:name=".CreateProductStyleActivity"
+            android:label="@string/title_activity_create_style" >
+        </activity>
+        <activity
+            android:name=".AddColorActivity"
+            android:label="@string/title_activity_add_color" >
+        </activity>
+        <activity
+            android:name=".ProductZuoZhengImageActivity"
+            android:label="@string/title_activity_product_zuo_zheng_image" >
+        </activity>
+    </application>
+
+</manifest>

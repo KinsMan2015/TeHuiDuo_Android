@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="@string/menu_drawer_title_home"/>
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_assignment_black_48dp"
+            android:title="@string/menu_drawer_title_history"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_face_black_48dp"
+            android:title="@string/menu_drawer_title_custom"/>
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@drawable/ic_launcher"
+            android:title="Discussion"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:icon="@drawable/ic_settings_black_48dp"
+                android:title="@string/memu_drawer_subtitle_setting"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_perm_phone_msg_black_48dp"
+                android:title="@string/menu_drawer_subtitle_contract"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">特汇多</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_add">添加新商品</string>
+    <string name="action_add_style">添加新款式</string>
+    <string name="action_add_picture">添加图片</string>
+    <string name="action_add_zuozheng_image">添加佐证图片</string>
+    <string name="action_sure">确认</string>
+    <string name="action_save">保存</string>
+    <string name="action_commmit">提交</string>
+    <string name="action_cancle">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="menu_drawer_title_home">商铺主页</string>
+    <string name="menu_drawer_title_history">历史订单</string>
+    <string name="menu_drawer_title_custom">我的客户</string>
+    <string name="menu_drawer_title_"></string>
+    <string name="memu_drawer_subtitle_setting">设置</string>
+    <string name="menu_drawer_subtitle_contract">联系我们</string>
+    <string name="company_address">黑龙江省哈尔滨经济开发区南岗集中区 创业中心10号楼</string>
+    <string name="company_zipcode">邮编 150090</string>
+    <string name="tab_title1">促销中</string>
+    <string name="tab_title2">等待审核</string>
+    <string name="tab_title3">未通过审核</string>
+    <string name="product_image">商品图片</string>
+    <string name="product_base_message">基本信息</string>
+    <string name="product_style_message">款式信息</string>
+    <string name="product_color_name">颜色名称</string>
+    <string name="product_style_name">款式名称</string>
+    <string name="product_style_count">款式数量</string>
+    <string name="product_zuozheng_image">佐证图片</string>
+    <string name="product_name">商品名称</string>
+    <string name="product_state">商品状态</string>
+    <string name="product_style">款式:</string>
+    <string name="product_color">颜色:</string>
+    <string name="product_size">尺寸:</string>
+    <string name="product_count">数量:</string>
+    <string name="product_price">商品价格</string>
+    <string name="product_location">商品产地</string>
+    <string name="product_describe">商品描述</string>
+    <string name="product_kinds">商品分类</string>
+    <string name="start_date">促销开始日期</string>
+    <string name="end_date">促销结束日期</string>
+    <string name="start_time">00:00</string>
+    <string name="end_time">12:00</string>
+    <string name="start_time_label">促销开始时间</string>
+    <string name="end_time_label">促销结束时间</string>
+    <string name="dialog_title">提示</string>
+    <string name="dialog_title_image">提示</string>
+    <string name="dialog_content_warning">您还没有拍摄照片请选择从照相机获取还是相册，在第二次添加照片可以点击加号浮动按钮</string>
+    <string name="dialog_content_zuozheng_warning">您还没有拍摄照片请选择从照相机获取还是相册</string>
+    <string name="dialog_content_zuozheng_max">您已经设置了佐证图片，长按图片可选择替换或删除</string>
+    <string name="dialog_content_choose">请选择添加图片的方式</string>
+    <string name="dialog_content_edit">请选择对应操作</string>
+    <string name="dialog_content_save">要保存修改吗？</string>
+    <string name="dialog_content_delete">真的要删除商品吗？</string>
+    <string name="dialog_content_delete_style">真的要删除该款式吗？</string>
+    <string-array name="dialog_items">
+        <item>替换</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="dialog_items_create">
+        <item>保存</item>
+        <item>提交</item>
+        <item>取消</item>
+    </string-array>
+    <string name="dialog_postive_text">拍摄</string>
+    <string name="dialog_negative_text">从相册获取</string>
+    <string name="snackbar_action_title">确认</string>
+    <string name="snackbar_message">您最多可设置4张图片,再次点击将保存图片</string>
+    <string name="saturation">饱和度</string>
+    <string name="contrast">色相</string>
+    <string name="lightness">亮度</string>
+    <string name="toast_create_product">新商品已经被创建,您可在等待审核中进行查看</string>
+    <string name="toast_max_images">您最多可以选择四张图片,要保存吗？</string>
+    <string name="toast_max_zuozheng_images">您最多可以选择1张图片</string>
+    <string name="toast_click_popupwindow">点击下方条目选择文件夹</string>
+    <string name="date_picker_title">请选择日期</string>
+    <string name="time_picker_title">请选择时间</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_product_detail_base_message">商品基本信息
+    </string>
+    <string name="title_activity_product_detail_style_message">商品款式信息
+    </string>
+    <string name="title_activity_create_product">创建新商品</string>
+    <string name="title_activity_product_detail_image">商品图片信息</string>
+    <string name="title_activity_contact_us">联系我们</string>
+    <string name="title_activity_edit_product">编辑商品</string>
+    <string name="title_activity_image_choose2">ImageChoose2Activity</string>
+    <string name="title_activity_image_choose">ImageChooseActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_single_fragment">SingleFragmentActivity</string>
+    <string name="title_activity_create_style">创建新款式</string>
+    <string name="title_activity_add_color">申请新颜色</string>
+    <string name="title_activity_product_zuo_zheng_image">佐证图片信息</string>
+</resources>

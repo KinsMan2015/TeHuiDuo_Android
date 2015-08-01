@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/list_item_card_product_state"/>
+
+    <include layout="@layout/list_item_card_product_image"/>
+
+    <include layout="@layout/list_item_card_product_base_message"/>
+
+    <include layout="@layout/list_item_card_product_style_message"/>
+
+    <include layout="@layout/list_item_card_product_zuozheng_image"/>
+
+</LinearLayout>
+
